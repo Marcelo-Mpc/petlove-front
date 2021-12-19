@@ -1,0 +1,40 @@
+
+.borda{
+    border: solid black 1.5px;    
+}
+#corpo{
+    background-color: #DDD;
+    width: 100%;
+}
+#h1{
+    padding: 0;
+    margin: 0;
+}
+
+.h2 {
+    background-color: #3F213B;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+.text {
+    font-size: 0.8em;
+    font-weight: bolder;
+    padding: 20px 0;
+    color: indigo;
+}
+.alinhar{
+    display: flex;
+    justify-content: right; 
+    padding-right: 80px;  
+}
+
+.card {
+    background-color: #DDD;
+}
+
+.btregistrar {
+    width: 170px;
+    background: #DF6E2F !important;
+    font-family: cursive;   
+  }

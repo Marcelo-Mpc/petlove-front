@@ -1,0 +1,678 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+strong{
+  color:#DF6E2F;
+  font-size: 1.3em;
+}
+spam{
+  font-weight: bold;
+}
+.fundoform{          
+    border-radius: 50px;  
+    display: flex;
+    justify-content:center;
+    font-family: cursive;    
+}
+.just-cont-l{
+    display: flex;
+    justify-content:left;
+    font-family: cursive;
+}
+.just-cont-R{
+    display: flex;
+    justify-content:left;
+    font-family: cursive;
+}
+/* input text */
+.inp-w-1{
+  width: 50px;
+  text-align: center;
+}
+.inp-w-2{
+  width: 50%;
+  text-align: center;
+}
+.inp-w-3{
+  width: 75%;
+  text-align: center;
+}
+.inp-w-4{
+  width: 600px;
+  text-align: center;
+}
+.input-heigth{
+  height: 30px;
+}
+.inp-h-1{
+  height: 20%;
+  text-align: center;
+}
+.inp-h-2{
+  height: 30%;
+  text-align: center;
+}
+.inp-h-3{
+  height: 40%;
+  text-align: center;
+}
+.inp-h-4{
+  height: 50%;
+  text-align: center;
+}
+.inp-h-5{
+  height: 60%;
+  text-align: center;
+}
+.inp-h-6{
+  height: 80%;
+  text-align: center;
+}
+.inp-h-7{
+  height: 100%;
+  text-align: center;
+}
+
+/* input color */
+.inp-border-color-1{
+    border-color: white;
+}
+.inp-border-color-2{
+  border-color: #3F213B;
+}
+.inp-border-color-3{
+  border: solid 1px;
+  border-color: #DF6E2F;
+}
+
+
+
+/* backgroud */
+.b-img-1{
+    background-image: url("/petfundo.jpg");
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position: center;
+}
+.b-color-1{
+  background-color: white!important;
+}
+.b-color-2{
+  background-color: #3F213B !important;
+}
+.b-color-3{
+  background-color: #DF6E2F !important;
+}
+
+/* border radius */
+.b-radius-1{
+  border-radius: 10px;
+}
+.b-radius-2{
+  border-radius: 20px;
+}
+.b-radius-3{
+  border-radius: 30px;
+}
+.b-radius-4{
+  border-radius: 40px;
+}
+.b-radius-5{
+  border-radius: 50px;
+}
+
+/* fontes */
+.reset{  
+  font-size: 1em;
+}
+.f-cursive{
+  font-family: cursive;
+}
+.f-reset{
+  font-size: 1em;
+}
+.fonte-2{
+  font-size: 2em;
+}
+.f-color-1{
+  color: white !important;
+}
+.f-color-2{
+  color: #3F213B !important;
+}
+.f-color-3{
+  color: #DF6E2F !important;
+}
+.descricaotexto{
+  color: #3F213B;
+}
+.header{
+  padding: 0;
+    margin: 0;
+    background-color: #3F213B !important;
+    color: white;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.mark{
+  font-size: 1em;
+  background-color: teal !important;
+  border-radius: 10px;
+  color :white;
+}
+.mark:hover{
+  color :white;
+  font-size: 1.1em;  
+}
+.borderteste{
+  /* border: solid #9F213B 2px; */
+  padding-left: 120px;
+  padding-top: 0;
+}
+.fonte{
+  text-align: right;
+}
+.toptexto{
+  font-size: 2.5em;
+  margin-top: 80px;
+  color: #3F213B;    
+}
+.topnav{
+    margin-top: 50px;
+    color: #9F213B;    
+}
+.trespacamento{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.distanciatexto{
+  margin-top: 30px;  
+}
+.cuidados{
+  font-size: 17px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.quemsomos{
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.link{ 
+  background: #e1eaeb;
+  color: black;
+  left: 0px;
+  height: 20px;
+  width: 440px;  
+  font-size: 16px;
+  border-top: 1px solid #dbe5e8; 
+  -webkit-border-radius: 0 0  5px 5px;
+  border-radius: 0 0  5px 5px;
+}
+.btentrar:hover{
+  width: 125px;
+  height: 35px;
+  background: #361832 !important;
+  font-family: cursive; 
+  font-size: 1.2em;
+}
+.btentrar {
+  width: 120px;
+  background: #3F213B !important;
+  font-family: cursive;
+  border-radius: 20px !important;
+}
+.btregistrar:hover{
+  width: 125px;
+  height: 35px;
+  background: #DF6E2F !important;
+  font-family: cursive; 
+  font-size: 1.2em;
+}
+.btregistrar {
+  width: 120px;
+  background: #DF6E2F !important;
+  font-family: cursive;
+  border-radius: 20px !important;
+}
+.navmark{
+  padding: 0;
+  border: 0;
+}
+.navmark:hover{
+  font-size: 1.2em;
+}
+.nav{
+  color: black !important;
+  padding-right: 2rem !important ;
+  font-family: cursive;
+}
+.nav:hover{  
+  padding-right: 2rem !important ;
+  font-family: cursive;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #3F213B;
+  }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #FFFF00;
+  }
+
+.bannercuidado{
+  background-image: url("/cuidados.png")  ;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-color: #3F213B;
+  height: 378px;
+}
+.bannerquemsomos{
+  background-image: url("/quemsomos.jpg")  ;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-color: #3F213B;
+  height: 378px;
+}
+
+.tdlog{
+  background: #E380490F;
+}
+.pegadas{
+  text-align: right;
+}
+.corpoform {
+  background-color: #ddd;
+}
+
+select{border-radius: 12px; background-color: white !important;}
+
+tr, td, th {border-radius: 12px; background-color: #3F213B; color: aliceblue;  border: solid 8px; }
+table{border: solid 10px; }
+
+.h2 {
+  color: aliceblue;
+  padding: 0;
+  margin: 0;
+}
+
+.tablespace {padding-top: 15px;}
+.banner{
+  background-image: url("/banner2.png")  ;
+  display: flex;
+  justify-content: flex;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-color: #3F213B;
+  height: 378px;
+}
+.adotequemsomos{  
+  color: #3F213B !important;
+  font-size: 5em;
+  padding-top: 80px;
+  margin-left: 60px;
+  font-family: cursive;  
+}
+.adotequemsomos2{  
+  color: #3F213B !important;
+  font-size: 5em;
+  margin-left: 100px;
+  font-family: cursive;  
+}
+.ligacao {
+  color: #3F213B !important;
+  margin-right: 50px ;
+  text-align: right;
+  font-size: 3em;
+  font-family: cursive;
+}
+.adotecuidado2{  
+  color: #3F213B !important;
+  font-size: 4em;
+  text-align: right;
+  margin-right: 80px;
+  font-family: cursive;  
+}
+.adotecuidado{  
+    color: #3F213B !important;
+    padding-top: 80px;
+    margin-left: 50px;
+    font-family: cursive;  
+}
+
+.adote{
+  color: aliceblue !important;
+  padding-top: 80px;
+  margin-left: 50px;
+  font-family: cursive;
+}
+.categoria:hover{
+  width: 335 !important;
+  height: 235 !important;
+}
+.categoria{
+  height: 225;
+  width: 324;
+}
+
+.adote2{
+  color: #DF6E2F !important;
+  padding-top: 80px;
+  margin-left: 50px;
+  font-family: cursive;
+}
+.btvejamais:hover{
+  margin-left: 50px ;
+  margin-top: 50px;
+  width: 125px;
+  border-top: solid 2px #dbe5e8 ;
+  border-left: solid 2px #dbe5e8;
+  background: #DF6E2F !important;
+  color:white !important;
+  font-family: cursive;
+  font-size: 1em;
+}
+.btvejamais {
+  margin-left: 50px ;
+  margin-top: 50px;
+  width: 120px;
+  background: #DF6E2F !important;
+  font-family: cursive;
+  color: black !important;
+  border-radius: 20px !important;
+}
+.lig {
+  color: #DF6E2F !important;
+  margin-left: 50px ;
+}
+
+.botoes{  
+  background: #DF6E2F !important;
+  font-family: cursive !important;
+  border-radius: 20px !important; 
+  margin-bottom: 10px !important;  
+}
+.botoes:hover{
+  border: solid #3F213B 0 2.5px 2.5px 0;
+  font-family: cursive; 
+  font-size: 1.1em;
+  color: azure
+}
+
+.btnadotar{
+  background-image: url("/coracao.png");
+  background-repeat: no-repeat;
+  font-family: cursive;
+  border-radius: 20px; 
+  margin-bottom: 10px;
+  width: 80px;
+}
+
+.exibirdetalhes{
+  background-image: url("/petfundo.jpg");
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: center;
+  border-radius: 50px;  
+  display: flex;
+  justify-content:center;
+  font-family: cursive;    
+}
+
+/* CSS - form cadastro pet/campo tamanho do pet */
+.porte{
+  background-image: url("/Porte.png");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.previewimg {    
+  background-color: rgb(236, 236, 236);
+  width: 250px;
+  height: 250px;
+  margin-left: 350px;
+  margin-right: 10px;
+  border-radius: 50px;
+  object-fit: contain;
+}
+
+/* CSS - Form Cadastro do pet/ imagem */
+.imagemcadastro{
+  background-color: rgb(236, 236, 236);
+  width: 250px;
+  height: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+.formadocao{
+  font-size:1.2em;
+  font-family: cursive;
+
+}
+
+/* css CORAÇÃO E PEGADA - sm=pqno md=medio lg=grande*/
+.mdcoracao{
+  justify-content: center;
+  background-image: url("/coracao.png") ;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center !important;
+  background-color: white !important;
+  color: white !important;
+  font-family: cursive;
+  border: none !important;
+  width: 120px;
+  height:100px;
+}
+.mdcoracao:hover{
+  justify-content: center;
+  background-image: url("/coracao.png") ;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center !important;
+  background-color: white !important;
+  color: white !important;
+  font-family: cursive;
+  font-size:1.1em;
+  border: none !important;
+  width: 140px;
+  height:100px;
+}
+.mdpegada{
+  background-image: url("/peg.png") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: white !important;
+  color: #3F213B !important;  
+  font-family: cursive;
+  font-weight: bold;
+  border: none !important;
+  margin-top: 10px;
+  width: 75px;
+  height: 100px;
+  text-align: center;
+}
+
+.mdpegada:hover{
+  background-image: url("/peg.png") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: white !important;
+  color: #3F213B !important;  
+  font-family: cursive;
+  font-size: 1.1em;
+  font-weight: bold;
+  
+  border: none !important;
+  width: 85px;
+  height: 100px;
+  text-align: center;
+}
+.smcoracao{
+  justify-content: center;
+  background-image: url("/coracao.png") ;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center !important;
+  background-color: white !important;
+  color: white !important;
+  font-family: cursive;
+  border: none !important;
+  width: 90px;
+  height:70px;
+}
+.smcoracao:hover{
+  justify-content: center;
+  background-image: url("/coracao.png") ;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center !important;
+  background-color: white !important;
+  color: white !important;
+  font-family: cursive;
+  font-size:1.1em;
+  border: none !important;
+  width: 100px;
+  height:80px;
+}
+.smpegada{
+  background-image: url("/peg.png") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: white !important;
+  color: #3F213B !important;  
+  font-family: cursive;
+  font-weight: bold;
+  border: none !important;
+  width: 60px;
+  height: 70px;
+  text-align: center;
+}
+
+.smpegada:hover{
+  background-image: url("/peg.png") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: white !important;
+  color: #3F213B !important;  
+  font-family: cursive;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: none !important;
+  width: 70px;
+  height: 80px;
+  text-align: center;
+}
+
+.lgcoracao{
+  justify-content: center;
+  background-image: url("/coracao.png") ;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center !important;
+  background-color: white !important;
+  color: white !important;
+  font-family: cursive;
+  font-size: 1.3em;
+  border: none !important;
+  width: 200px;
+  height:200px;
+}
+.lgcoracao:hover{
+  justify-content: center;
+  background-image: url("/coracao.png") ;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center !important;
+  background-color: white !important;
+  color: white !important;
+  font-family: cursive;
+  font-size:1.6em;
+  border: none !important;
+  width: 200px;
+  height:200px;
+}
+.lgpegada{
+  background-image: url("/peg.png") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: white !important;
+  color: #3F213B !important;  
+  font-family: cursive;
+  font-size: 1.3em;
+  font-weight: bold;
+  border: none !important;
+  width: 140px;
+  height: 150px;
+  text-align: center;
+}
+.lgpegada:hover{
+  background-image: url("/peg.png") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: white !important;
+  color: #3F213B !important;  
+  font-family: cursive;
+  font-size: 1.6em;
+  font-weight: bold;
+  border: none !important;
+  width: 140px;
+  height: 150px;
+  text-align: center;
+}
+
+/* css para textos e demais classes */
+.textado{
+  /* margin-top: 130px; */
+  padding: 0px;
+  margin: 0px;
+  width: 200px;
+  height: 250px;
+}
+.paddingbotton{
+  margin-top: 70px;
+  margin-bottom: 50px;  
+}
+.topoq {
+  margin-top: 70px;
+}
+
+.optext {
+  font-family: cursive;
+    text-align: end;
+}
+
+.divfooter {
+  background-color: rgba(227, 128, 73, 0.09);
+}
+.imagem{
+  width: 370px;
+  height: 450px;
+}
+
+/* formuláario contato */

@@ -1,0 +1,23 @@
+
+$theme-colors: (
+  "primary": #ffb800
+);
+
+$btn-border-radius: 3000px;
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/utilities";
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "cursor": (
+      property: cursor,
+      class: cursor,
+      responsive: true,
+      values: auto pointer grab,
+    )
+  )
+);
+
